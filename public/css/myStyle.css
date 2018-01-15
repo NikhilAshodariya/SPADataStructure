@@ -1,0 +1,50 @@
+#title {
+  text-align: center;
+  color: Red;
+  font-style: italic;
+  font-size: 2em;
+}
+
+span.dataStructureNames  {
+  padding-left: 1.5em;
+}
+
+.outerDiv {
+  border: 0.05em;
+  border-style: solid;
+  border-radius: 1em;
+}
+
+.options {
+  list-style-type: none;
+}
+
+ul.options li {
+  display: inline-block;
+  background-color: lightblue;
+  height: 3em;
+  width: 5em;
+  text-align: center;
+  line-height: 3em;
+}
+
+div.outerDiv input[name="stackAndQueue"] {
+  display: inline-block;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  left: 2em;
+}
+
+div.mainElements textarea {
+  resize: none;
+}
+
+div.mainElements {
+  text-align: center;
+}
+
+div.mainElements div.dataStructureOptions {
+  float: left;
+}

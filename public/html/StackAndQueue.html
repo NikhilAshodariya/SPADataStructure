@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Combined Stack and Queue</title>
+  <link rel="stylesheet" type="text/css" href="../css/myStyle.css">
+</head>
+
+<body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../js/StackAndQueue.js"></script>
+
+  <div class="container">
+    <h1 id="title">Welcome to the Stack And Queue</h1>
+    <div class="outerDiv">
+      <div>
+        <input type="radio" name="stackAndQueue" id="stackRadio" value="stack" checked> <span class="dataStructureNames">Stack</span>
+        <input type="radio" name="stackAndQueue" id="queueRadio" value="queue"> <span class="dataStructureNames">Queue</span>
+      </div>
+      <hr>
+      <div class="mainElements">
+        <div class="dataStructureOptions">
+          <input type="radio" name="stackOptions" id="stack1Radio" value="0" checked> <span id="stack1"> Stack 1 </span><br>
+          <input type="radio" name="stackOptions" id="stack2Radio" value="1"> <span id="stack2"> Stack 2 </span>
+        </div>
+        <textarea rows="20" id="stackTextArea" cols="50" style="resize:none" disabled></textarea>
+        <br>
+        <button type="button" id="pushButton" name="button">Push</button>
+        <input type="text" placeholder="User Input" id="userInput">
+        <button type="button" id="popButton" name="button">Pop</button>
+        <br>
+        <br>
+        <span id="poppedValue"></span>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
